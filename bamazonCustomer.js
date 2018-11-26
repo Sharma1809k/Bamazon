@@ -96,7 +96,7 @@ function continueShopping() {
     }
   ]).then(function (answer) {
     if (answer.continueShopping === "Yes") {
-      readProducts()
+      start()
     }
     else {
       console.log("Thank You!!!")
